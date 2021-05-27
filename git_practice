@@ -1,0 +1,30 @@
+➜  ~ mkdir git_practice
+mkdir: git_practice: File exists
+➜  ~ cd git_practice
+➜  git_practice git:(master) 
+➜  git_practice git:(master) git init
+Reinitialized existing Git repository in /Users/romainhochard/git_practice/.git/
+➜  git_practice git:(master) echo "Hello Git and GitHub" >> README.txt
+➜  git_practice git:(master) ✗ git add README.txt
+➜  git_practice git:(master) ✗ git commit -m "First commit" 
+[master 8c8df13] First commit
+ Committer: romain hochard <romainhochard@macbook-pro-de-romain-2.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+➜  git_practice git:(master) git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  git_practice git:(master) 
